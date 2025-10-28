@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "Task 1: Feature Model Translation",
+      "setup": "chmod +x gradlew",
+      "run": "./gradlew test --tests 'FeatureModelAnalyzerTranslationTest' --console=rich",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Task 2: Analyse Feature Model",
+      "setup": "chmod +x gradlew",
+      "run": "./gradlew test --tests 'FeatureModelAnalyzerTest' --console=rich",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Task 2: Analyse Dead Feature",
+      "setup": "chmod +x gradlew",
+      "run": "./gradlew test --tests 'FeatureModelAnalyzerDeadFeatureTest' --console=rich",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Task 2: Analyse Mandatory Feature",
+      "setup": "chmod +x gradlew",
+      "run": "./gradlew test --tests 'FeatureModelAnalyzerMandatoryFeatureTest' --console=rich",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Task 3: Products Preservation",
+      "setup": "chmod +x gradlew",
+      "run": "./gradlew test --tests 'ProductsPreservedTest' --console=rich",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "All tests",
+      "setup": "chmod +x gradlew",
+      "run": "./gradlew test",
+      "input": "",
+      "output": "",
+      "comparison": "excluded",
+      "timeout": 5,
+      "points": 0
+    }
+  ]
+}
